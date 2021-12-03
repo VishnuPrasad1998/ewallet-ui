@@ -5,6 +5,7 @@ export default {
     htmlAttrs: {
       lang: 'en'
     },
+    target: 'serverless',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -37,7 +38,6 @@ export default {
     'bootstrap-vue/nuxt',
     '@nuxtjs/axios'
   ],
-
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
